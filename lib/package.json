@@ -1,0 +1,85 @@
+{
+    "name": "react-mdl-hooks",
+    "version": "1.0.0",
+    "description": "React Components for Material Design Lite Built on Hooks",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "yarn clean && webpack",
+        "clean": "rimraf dist",
+        "prepare": "install-peers",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "yarn clean && webpack --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joshreep/react-mdl-hooks.git"
+    },
+    "keywords": [
+        "react",
+        "react-component",
+        "mdl",
+        "material-design",
+        "badge",
+        "button",
+        "card",
+        "checkbox",
+        "data-table",
+        "fab-button",
+        "icon",
+        "icon-button",
+        "icon-toggle",
+        "radio",
+        "radio-group",
+        "switch",
+        "textfield",
+        "progress",
+        "progress-bar",
+        "spinner",
+        "slider",
+        "tooltip",
+        "menu",
+        "dropdown",
+        "Layout",
+        "Drawer",
+        "Grid",
+        "Tabs"
+    ],
+    "author": {
+        "name": "Josh Reep",
+        "email": "joshreep@gmail.com"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/joshreep/react-mdl-hooks/issues"
+    },
+    "homepage": "https://github.com/joshreep/react-mdl-hooks#readme",
+    "devDependencies": {
+        "@types/classnames": "^2.2.10",
+        "@types/eslint": "^7.2.2",
+        "@types/material-design-lite": "^1.1.16",
+        "@types/prettier": "^2.1.0",
+        "@types/react": "^16.9.48",
+        "@types/react-dom": "^16.9.8",
+        "@types/sass": "^1.16.0",
+        "@types/webpack": "^4.41.21",
+        "css-loader": "^4.2.2",
+        "eslint": "^7.7.0",
+        "install-peers-cli": "^2.2.0",
+        "prettier": "^2.1.1",
+        "sass": "^1.26.10",
+        "sass-loader": "^10.0.1",
+        "style-loader": "^1.2.1",
+        "ts-loader": "^8.0.3",
+        "typescript": "^4.0.2",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12"
+    },
+    "peerDependencies": {},
+    "dependencies": {
+        "classnames": "^2.2.6",
+        "material-design-lite": "^1.3.0",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    }
+}
